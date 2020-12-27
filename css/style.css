@@ -21,9 +21,6 @@ h1 {
     position: relative;
 }
 
-.container {
-    position: relative;
-}
 
 p {
     border: 1px solid black;
@@ -33,9 +30,10 @@ p {
     margin-right: auto;
     margin-left: auto;
     font-family: Helvetica;
-    font-size: 14px;
+    font-size:14px;
     color: white;
     padding: 50px 10px 10px 10px;
+    
 }
 
 .corner {
