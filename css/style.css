@@ -8,6 +8,9 @@ h1 {
 h3 {
     text-align: center;
 }
+.col-xs-12 {
+    width: 100%; 
+}
 
 #brand{
     float:left;
@@ -21,11 +24,24 @@ h3 {
     li {
         display: none;
     }
+    .container {
+        max-width: 90%;
+    }
+}
+@media (max-width: 767px) {
+
+
+    .container {
+        max-width: 90%;
+    }
 }
 
 @media (min-width: 1200px) {
     .navbar-toggler {
         display: none;
+    }
+    .container {
+        max-width: 90%;
     }
 }
 
@@ -34,11 +50,17 @@ h3 {
     .navbar-toggler {
         display: none;
     }
+    .container {
+        max-width: 90%;
+    }
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar-toggler {
         display: none;
+    }
+    .container {
+        max-width: 90%;
     }
 }
