@@ -5,7 +5,7 @@
 
 (function (window) {
 var byeSpeaker ={};
-   byeSpeaker.name = "Yaakov";
+   byeSpeaker.speak = "Yaakov";
 var speakWord = "Good Bye";
 
 // STEP 8: Rewrite the 'speak' function such that it is attached to the
